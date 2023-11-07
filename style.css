@@ -1,0 +1,28 @@
+.NAVBAR{
+    transition: transform 2s;
+
+    border-radius: 100px;
+    padding: auto;
+    background-color: black;
+}
+.NAVBAR:HOVER{
+    transform: scaleX(0.9);
+
+}
+.NAVBAR UL{
+overflow: auto;
+}
+.NAVBAR,li,a:hover{
+color: red;
+}
+
+
+.NAVBAR LI,a{ 
+
+    transition: border-bottom 2s;
+    color:white;
+  list-style: none;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
